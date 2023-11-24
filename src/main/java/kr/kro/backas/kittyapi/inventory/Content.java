@@ -123,7 +123,7 @@ public class Content {
      * 해당 content의 클릭 콜백 함수를 호출하기 위해 사용됩니다
      * @return callback
      */
-    protected @Nullable Consumer<ContentClickEvent> getOnClick() {
+    public @Nullable Consumer<ContentClickEvent> getOnClick() {
         return this.onClick;
     }
 

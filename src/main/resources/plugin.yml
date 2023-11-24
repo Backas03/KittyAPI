@@ -1,0 +1,4 @@
+name: KittyAPI
+version: '${version}'
+main: kr.kro.backas.kittyapi.KittyAPI
+api-version: '1.20'
